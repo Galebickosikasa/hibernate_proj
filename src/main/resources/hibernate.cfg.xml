@@ -9,6 +9,8 @@
         <property name="connection.username">postgres</property>
         <property name="connection.password">rootroot</property>
 
+        <mapping class="org.runningcherry.entity.Users"/>
+
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
     </session-factory>
