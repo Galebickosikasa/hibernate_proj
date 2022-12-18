@@ -9,7 +9,7 @@
         <property name="connection.username">postgres</property>
         <property name="connection.password">rootroot</property>
 
-        <mapping class="org.runningcherry.entity.Users"/>
+        <mapping class="org.runningcherry.entity.User"/>
 
         <!-- DB schema will be updated if needed -->
         <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->

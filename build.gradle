@@ -12,4 +12,7 @@ repositories {
 dependencies {
     implementation 'org.hibernate.orm:hibernate-core:6.1.6.Final'
     implementation 'org.postgresql:postgresql:42.5.1'
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
 }
